@@ -76,7 +76,7 @@ export async function generateGreeting(
   customerName: string | null
 ): Promise<string> {
   const name = customerName ? ` ${customerName}` : '';
-  return `Hi${name} 👋 Thanks for getting in touch with ${business.business_name}! I'm here to help get your enquiry to the right person quickly. What kind of work are you looking to get done?`;
+  return `Hi${name} 👋 You're chatting with a live demo of TradeMate — an AI lead qualification bot for tradespeople. This is exactly what your customers would experience on your Facebook page. Go ahead and pretend you're looking for a tradesperson — what kind of work do you need done?`;
 }
 
 // ─── Main conversation reply ──────────────────────────────────────────────────
